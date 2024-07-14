@@ -1,4 +1,4 @@
-# U-Net Human Background Remover 
+# U-Net: Human Background Remover 
 
 This project demonstrates the implementation of a U-Net model for background removal in images. The model is trained on the AISegment dataset to accurately segment the foreground from the background in images, specifically human matting.
 
