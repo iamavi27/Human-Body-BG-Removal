@@ -37,13 +37,13 @@ The dataset used for this project is the [AISegment Matting Human Datasets](http
 4. Run the provided code to train and evaluate the model.
 
 ## Model Architecture
-The U-Net model consists of an encoder (contracting path) and a decoder (expansive path) with skip connections between corresponding layers. This architecture helps in capturing both the spatial and contextual information effectively.
+The U-Net model consists of an encoder (contracting path) and a decoder (expansive path) with skip connections between corresponding layers. This architecture helps in capturing both spatial and contextual information effectively.
 
 ## Training
-The model is trained using the binary cross-entropy loss function and the Adam optimizer. Early stopping and model checkpointing are used to prevent overfitting and save the best model.
+The model is trained using the binary cross-entropy loss function and the Adam optimizer. Early stopping and model checkpointing prevent overfitting and save the best model.
 
 ## Evaluation
-The model is evaluated using metrics such as accuracy and the Intersection over Union (IoU) score. Visualizations of the input images, ground truth masks, and predicted masks are provided to assess the model's performance.
+The model is evaluated using accuracy score. Visualizations of the input images, ground truth masks, and predicted masks are provided to assess the model's performance.
 
 ## Results
 The results include the visualizations of the input images, ground truth masks, predicted masks, and the final segmented output. The learning curve of the model is also plotted to show the training progress.
